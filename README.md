@@ -1,4 +1,4 @@
-gox_pubnub_private
+Mt. Gox Pubnub Private Authorization
 ==================
 
-Get Pubnub Authorization Information for Mt. Gox private feed
+Get Mt. Gox account Pubnub authorization information for Mt. Gox private feed.
