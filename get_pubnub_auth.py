@@ -27,6 +27,7 @@ class request_private:
         nonce = { "nonce" : int(time.time()*1e6) }
         post_data = urlencode(nonce)
         headers = {
+	    'Content-Type' : 'application/x-www-form-urlencoded',
             'User-Agent' : 'MyBot',
             'Rest-Key' : self.auth_key,
             'Rest-Sign' : self.sign_dat(self.auth_secret, post_data)
