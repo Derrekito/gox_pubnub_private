@@ -31,7 +31,6 @@ class request_private:
             'User-Agent' : 'MyBot',
             'Rest-Key' : self.auth_key,
             'Rest-Sign' : self.sign_dat(self.auth_secret, post_data)
-
         }
         return post_data, headers
 
